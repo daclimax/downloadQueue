@@ -1,0 +1,10 @@
+-- Autor: tmy
+-- Erstellt am: 21.01.2012
+-- Creates tables for downloadQueue
+
+create table downloadQueue.Category 
+(	CAT_ID Int primary key auto_increment,
+	CAT_NAME varchar(255),
+	CAT_CREATE_USER varchar(100),
+	CAT_CREATE_TIME timestamp
+)
